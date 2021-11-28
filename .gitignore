@@ -1,3 +1,6 @@
+# all
 *.tmp
 *.zip
-temp
+
+# temp files
+temp/*
