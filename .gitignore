@@ -4,3 +4,4 @@
 
 # temp files
 temp/*
+!temp/__place_holder__
