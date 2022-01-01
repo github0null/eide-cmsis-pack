@@ -1,6 +1,8 @@
 # all
 *.tmp
 *.zip
+*.7z
+*.rar
 
 # temp files
 temp/*
