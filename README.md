@@ -6,7 +6,16 @@
 
 ## 添加包
 
-将下载好的 Keil 包放入 `temp` 目录中，然后执行 `trim.bat` 或 `trim.sh`，会执行修剪并自动添加到 packages 目录
+将下载好的 Keil 包放入 `temp` 目录中，
+
+然后执行 
+
+```
+cd ./tools
+./trim.bat (或 ./trim.sh)
+```
+
+会执行修剪并自动添加到 packages 目录
 
 *** 
 
@@ -18,4 +27,11 @@ This is where the CMSIS packages used by the eide online download function are s
 
 ## add package
 
-Place downloaded Keil cmsis packages into the `temp` directory and then run `trim.bat` or `trim.sh` will perform trim and automatically add them to the Packages directory
+Place downloaded Keil cmsis packages into the `temp` directory and then run
+
+```
+cd ./tools
+./trim.bat(or ./trim.sh)
+```
+
+will perform trim and automatically add them to the Packages directory
